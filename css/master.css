@@ -1,0 +1,702 @@
+ @import "reset.css";
+
+.body {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #FFFFFF;
+}
+
+#square {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 420px;
+  top: 150px;
+  background: #000000;
+  z-index: 1;
+}
+
+#squareyellow {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 270px;
+  top: 192px;
+  background: #FBC029;
+  z-index: 2;
+}
+
+#squaregreen {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1020px;
+  top: 426px;
+  background: #2B7B09;
+  z-index: 2;
+}
+
+#circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  left: 870px;
+  top: 600px;
+  background: #137FCB;
+  z-index: 2;
+}
+
+#rectangleone {
+  position: absolute;
+  width: 580px;
+  height: 50px;
+  left: 860px;
+  top: 217px;
+  background: #D72016;
+  z-index: 2;
+}
+
+#rectangletwo {
+  position: absolute;
+  width: 481px;
+  height: 50px;
+  left: 0px;
+  top: 602px;
+  background: #D72016;
+  z-index: 2;
+}
+
+#rectanglethree {
+  position: absolute;
+  width: 168px;
+  height: 50px;
+  left: 1272px;
+  top: 779px;
+  background: #D72016;
+  z-index: 2;
+}
+
+/* imac 21.6 */
+@media screen and (max-width: 1920px) {
+  #square {
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    left: 585px;
+    top: 166px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 435px;
+    top: 237px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1335px;
+    top: 584px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1185px;
+    top: 766px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 870px;
+    height: 75px;
+    left: 1050px;
+    top: 237px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 645px;
+    height: 75px;
+    left: 0px;
+    top: 659px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 251px;
+    height: 75px;
+    left: 1669px;
+    top: 978px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
+
+/* macbook pro 15 custom */
+@media screen and (max-width: 1680px) {
+  #square {
+    position: absolute;
+    width: 656px;
+    height: 656px;
+    left: 512px;
+    top: 195px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 381px;
+    top: 257px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 1168px;
+    top: 561px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 1037px;
+    top: 720px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 761px;
+    height: 66px;
+    left: 919px;
+    top: 257px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 564px;
+    height: 66px;
+    left: 0px;
+    top: 626px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 220px;
+    height: 65px;
+    left: 1460px;
+    top: 906px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
+
+/* macbook air 11 */
+@media screen and (max-width: 1366px) {
+  #square {
+    position: absolute;
+    width: 534px;
+    height: 533px;
+    left: 416px;
+    top: 117px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 106px;
+    height: 107px;
+    left: 310px;
+    top: 167px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 950px;
+    top: 415px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 107px;
+    height: 106px;
+    left: 843px;
+    top: 544px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 619px;
+    height: 54px;
+    left: 747px;
+    top: 167px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 459px;
+    height: 54px;
+    left: 0px;
+    top: 467px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 179px;
+    height: 53px;
+    left: 1187px;
+    top: 695px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
+
+/* macbook pro 13 */
+@media screen and (max-width: 1280px) {
+  #square {
+    position: absolute;
+    width: 500px;
+    height: 499px;
+    left: 390px;
+    top: 150px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 290px;
+    top: 197px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 890px;
+    top: 429px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 100px;
+    height: 99px;
+    left: 790px;
+    top: 550px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 580px;
+    height: 50px;
+    left: 700px;
+    top: 197px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 430px;
+    height: 51px;
+    left: 0px;
+    top: 478px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 168px;
+    height: 49px;
+    left: 1112px;
+    top: 692px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
+
+
+/* ipad mini 9.7" landscape */
+@media screen and (max-width: 1024px) {
+
+  #square {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 312px;
+    top: 183px;
+    background: #000000;
+    z-index: 1;
+  }
+
+  #squareyellow {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 232px;
+    top: 221px;
+    background: #FBC029;
+    z-index: 2;
+  }
+
+  #squaregreen {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 712px;
+    top: 406px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+
+  #circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 75px;
+    left: 632px;
+    top: 503px;
+    background: #137FCB;
+    z-index: 2;
+  }
+
+  #rectangleone {
+    position: absolute;
+    width: 464px;
+    height: 40px;
+    left: 560px;
+    top: 221px;
+    background: #D72016;
+    z-index: 2;
+  }
+
+  #rectangletwo {
+    position: absolute;
+    width: 344px;
+    height: 40px;
+    left: 0px;
+    top: 446px;
+    background: #D72016;
+    z-index: 2;
+  }
+
+
+  #rectanglethree {
+    position: absolute;
+    width: 134px;
+    height: 40px;
+    left: 890px;
+    top: 616px;
+    background: #D72016;
+    z-index: 2;
+  }
+
+}
+
+/* ipad mini 9.7" portrait */
+@media screen and (max-width: 768px) {
+
+  #square {
+    position: absolute;
+    width: 492px;
+    height: 490px;
+    left: 139px;
+    top: 267px;
+    background: #000000;
+    z-index: 1;
+  }
+
+  #squareyellow {
+    position: absolute;
+    width: 98px;
+    height: 99px;
+    left: 41px;
+    top: 312px;
+    background: #FBC029;
+    z-index: 2;
+  }
+
+  #squaregreen {
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    left: 631px;
+    top: 541px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+
+  #circle {
+    position: absolute;
+    width: 99px;
+    height: 97px;
+    left: 532px;
+    top: 659px;
+    background: #137FCB;
+    z-index: 2;
+  }
+
+  #rectangleone {
+    position: absolute;
+    width: 326px;
+    height: 50px;
+    left: 442px;
+    top: 312px;
+    background: #D72016;
+    z-index: 2;
+  }
+
+  #rectangletwo {
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    left: 0px;
+    top: 587px;
+    background: #D72016;
+    z-index: 2;
+  }
+
+
+  #rectanglethree {
+    position: absolute;
+    width: 163px;
+    height: 48px;
+    left: 605px;
+    top: 797px;
+    background: #D72016;
+    z-index: 2;
+  }
+
+}
+
+/* iphone xs max */
+@media screen and (max-width: 414px) {
+  #square {
+    position: absolute;
+    width: 265px;
+    height: 264px;
+    left: 75px;
+    top: 292px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 22px;
+    top: 317px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 54px;
+    height: 53px;
+    left: 340px;
+    top: 440px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 53px;
+    height: 52px;
+    left: 287px;
+    top: 504px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 176px;
+    height: 27px;
+    left: 238px;
+    top: 317px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    left: 0px;
+    top: 465px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 326px;
+    top: 578px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
+
+/* iphone xs 8+ 9 */
+@media screen and (max-width: 375px) {
+  #square {
+    position: absolute;
+    width: 240px;
+    height: 239px;
+    left: 68px;
+    top: 215px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 20px;
+    top: 238px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    left: 308px;
+    top: 349px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    left: 260px;
+    top: 407px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 159px;
+    height: 24px;
+    left: 216px;
+    top: 238px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 0px;
+    top: 372px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 295px;
+    top: 474px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
+
+/* iphone se */
+@media screen and (max-width: 320px) {
+  #square {
+    position: absolute;
+    width: 205px;
+    height: 204px;
+    left: 58px;
+    top: 183px;
+    background: #000000;
+    z-index: 1;
+  }
+  #squareyellow {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 17px;
+    top: 202px;
+    background: #FBC029;
+    z-index: 2;
+  }
+  #squaregreen {
+    position: absolute;
+    width: 42px;
+    height: 41px;
+    left: 263px;
+    top: 297px;
+    background: #2B7B09;
+    z-index: 2;
+  }
+  #circle {
+    position: absolute;
+    width: 41px;
+    height: 40px;
+    left: 222px;
+    top: 347px;
+    background: #137FCB;
+    z-index: 2;
+  }
+  #rectangleone {
+    position: absolute;
+    width: 136px;
+    height: 21px;
+    left: 184px;
+    top: 202px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectangletwo {
+    position: absolute;
+    width: 75px;
+    height: 21px;
+    left: 0px;
+    top: 317px;
+    background: #D72016;
+    z-index: 2;
+  }
+  #rectanglethree {
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 252px;
+    top: 404px;
+    background: #D72016;
+    z-index: 2;
+  }
+}
