@@ -67,6 +67,7 @@ let animation06 = anime({
   targets: '#circle',
   loop: true,
   autoplay: true,
+  direction: 'alternate',
   translateX: [
     { value: -525, duration: 1000, delay: 1000 },
   ],
