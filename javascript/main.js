@@ -19,10 +19,25 @@ let animation02 = anime({
 })
 
 let animation03 = anime({
+  targets: '#rectanglethree',
+  autoplay: true,
+  duration: 4000,
+  direction: 'alternate',
+  translateX: -1920,
+  loop: true,
+  easing: 'easeInOutSine',
+})
+
+let animation04 = anime({
   targets: '#squareyellow',
   autoplay: true,
   loop: true,
   direction: 'alternate',
+  easing: function(el, i, total) {
+    return function(t) {
+      return Math.pow(Math.sin(t * (i + 1)), total);
+    }
+  },
   translateY: [
     { value: 594, duration: 1000, delay: 500 },
   // { value: -190, duration: 1000, delay: 500 },
@@ -71,4 +86,26 @@ let animation06 = anime({
   translateX: [
     { value: -525, duration: 1000, delay: 1000 },
   ],
+  easing: function(el, i, total) {
+    return function(t) {
+      return Math.pow(Math.sin(t * (i + 1)), total);
+    }
+  }
 })
+
+let animation07 = anime({
+  targets: '#square',
+  loop: true,
+  autoplay: true,
+  direction: 'alternate',
+  width: '100%',
+  easing: 'easeInOutQuad',
+})
+
+var colorsExamples = anime.timeline({
+  endDelay: 2000,
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  loop: true
+})
+.add({ targets: '#rectangletwo',  background: '#000' }, 0)
